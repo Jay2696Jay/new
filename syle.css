@@ -63,12 +63,12 @@ div img {
     text-align: center;
     padding: 12.5%;
     margin: 12.5%;
-    background: url(/images/background.webp);
+    background: url(background.webp);
     color: azure
 }
 
 .inner:hover{
-    background: url(/images/cupcakes-2285209__480.webp);
+    background: url(cupcakes-2285209__480.webp);
     font-size: 14px;
     color: black
     
