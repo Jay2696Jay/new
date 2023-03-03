@@ -1,0 +1,253 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+}
+
+body {
+    color: azure;
+    background: pink;
+    font-family: monospace;
+    line-height: 1.5;
+    cursor: pointer;
+
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.bow {
+    background: rgb(126, 68, 150);
+    margin: auto;
+    width: 75%;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 30px;
+    border-radius: 30px;
+    border-color: rgb(119, 59, 117);
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+.me{
+    margin-left: -60px;
+}
+
+.bo {
+    background: palevioletred;
+    padding: 10px;
+    border-width: 2px;
+    font-size: 3rem;
+    margin: 0px 5px;
+    border-style: solid;
+    border-radius: 50px;
+
+
+}
+
+#logo {}
+
+a {
+    text-decoration: none;
+}
+
+div img {
+    display: inline-block;
+    margin: 30px;
+}
+
+.inner {
+    width: 90%;
+    line-height: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    color: azure;
+    background-color: rgb(155, 76, 155);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-right: 0 20px;
+    line-height: 50px;
+}
+
+.inner:hover{
+    font-size: 16px;
+    color: black
+}
+
+
+.mine {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    line-height: 40px;
+    justify-content: center;
+    display: block;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+/* .test {
+    object-fit: contain;
+} */
+
+.him{
+    line-height: 60px;
+}
+
+
+
+/* start of products */
+
+.products{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 95%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.products a{
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.feat{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vev{
+    margin-left: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.van{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.choc{
+    
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+/* end of products */
+
+/*for contact*/
+.bud {
+    background: pink;
+}
+
+
+.our{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsiveness */
+
+
+@media screen and (max-width:800px) {
+    body {
+        background: lavender;
+        color: white;
+    }
+
+    .none{
+        display: none;
+    } 
+
+    .inner{
+        width: 70%;
+        font-size: 14px;
+        padding: 50px;
+    }
+    .feat{
+        color: rgb(206, 177, 240);
+    }
+
+    .products{
+        color: rgb(206, 177, 240);
+        display: block;
+    }
+
+    .van{
+        margin-top: 10px;
+    }
+
+    .vev{
+        margin-top: 60px;
+    }
+
+    .our{
+        width: 85%;
+        font-size: 14px;
+        margin-top: 100px;
+        color: rgb(206, 177, 240);
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width:800px) and (max-width:1200px){
+    .inner{
+        width: 80%;
+        padding: 50px;
+    }
+
+    .products{
+        display: block;
+        width: 60%;
+    }
+
+    .vev{
+        margin-top: 60px;
+    }
+}
